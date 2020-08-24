@@ -7,21 +7,17 @@ const operator = (op1, num3, num4) => {
     case '+':
       answer = num3+num4;
       return(num3 + '+' + num4 + '=' + answer)
-      break;
     case '-':
       answer = num3-num4;
       return(num3 + '-' + num4 + '=' + answer)
-      break;
     case '*':
       answer = num3*num4;
       return(num3 + '*' + num4 + '=' + answer)
-      break;
     case '/':
       answer = num3/num4;
       return(num3 + '/' + num4 + '=' + answer)
-      break;
       default:
-      return("Non valid");
+      return("Not valid");
   }
 }
 
